@@ -1,5 +1,9 @@
-{
-  "url": "https://t.me/Nuka_C",
-  "name": "Nuka Coin",
-  "iconUrl": "https://ibb.co/92h3NHR"
+import { TonConnectUIProvider } from '@tonconnect/ui-react';
+
+export function App() {
+    return (
+        <TonConnectUIProvider manifestUrl="https://github.com/sanya8923/sanya8923.github.io/blob/main/tonconnect-manifest.json">
+            {"Nuka Cola"}
+        </TonConnectUIProvider>
+    );
 }
