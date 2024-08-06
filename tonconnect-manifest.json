@@ -1,9 +1,7 @@
-import { TonConnectUIProvider } from '@tonconnect/ui-react';
-
-export function App() {
-    return (
-        <TonConnectUIProvider manifestUrl="https://github.com/sanya8923/sanya8923.github.io/blob/main/tonconnect-manifest.json">
-            {"Nuka Cola"}
-        </TonConnectUIProvider>
-    );
+{
+  "url": "https://t.me/NukaC_bot",
+  "name": "Nuka Cola",
+  "iconUrl": "sanya8923.github.io/photo_2024-06-27_22-01-16.jpg",
+  "termsOfUseUrl": "https://ton-connect.github.io/demo-dapp-with-react-ui/terms-of-use.txt",
+  "privacyPolicyUrl": "https://ton-connect.github.io/demo-dapp-with-react-ui/privacy-policy.txt"
 }
